@@ -1,6 +1,12 @@
 #include <algorithm>
 #include <cmath>
 using namespace std;
+
+
+
+#define sz(x) (int)(x).size()
+
+
 template<class T>
 struct Point
 {
