@@ -5,6 +5,7 @@ using namespace std;
 
 
 #define sz(x) (int)(x).size()
+#define all(x) x.begin(),x.end()
 
 
 template<class T>
