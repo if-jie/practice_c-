@@ -2,7 +2,7 @@
 Author: 1454164915@qq.com 1454164915@qq.com
 Date: 2024-11-04 14:55:07
 LastEditors: 1454164915@qq.com 1454164915@qq.com
-LastEditTime: 2024-11-04 15:29:10
+LastEditTime: 2024-11-05 15:03:28
 FilePath: /learn/C++/dijstack/d.py
 Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 '''
@@ -12,6 +12,7 @@ inf = float('inf')
 
 
 def minTimeTorReach(moveTime): 
+    
     m = len(moveTime)
     n = len(moveTime[0])
     g = [[inf] * m for _ in range(n)]
